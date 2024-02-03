@@ -1,0 +1,46 @@
+button {
+    /* Сброс всех свойств, включая отступы, цвета и шрифты */
+    all: initial;
+
+    /* Убрать стили, унаследованные от родительских элементов */
+    font: inherit;
+    color: inherit;
+
+    /* Убрать бордер и фон */
+    border: none;
+    background: none;
+
+    /* Сбросить внешний вид при наведении и активации */
+    cursor: pointer;
+    text-decoration: none;
+
+    /* Сбросить стили для различных состояний */
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90%; /* 12.6px */
+    letter-spacing: -0.28px;
+    padding: 6px 14px;
+
+    border-top: 1px solid #3d3d3d;
+    border-bottom: 1px solid #3d3d3d;
+    border-left: 1px solid #3d3d3d;
+    transition: all 0.3s ease-in-out;
+}
+
+.active {
+    background-color: #fff;
+    color: #222;
+}
+
+.disable {
+    color: #ccc;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+button:hover {
+    background-color: #fff;
+    color: #222;
+}

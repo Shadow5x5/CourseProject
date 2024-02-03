@@ -1,0 +1,11 @@
+.logo {
+    font-family: "SF Pro Display";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #909090;
+    padding-top: 20px;
+    box-sizing: border-box;
+}

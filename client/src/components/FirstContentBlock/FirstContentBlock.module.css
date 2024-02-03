@@ -1,0 +1,89 @@
+.container {
+    margin: 0 auto;
+    background-color: #222222;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-top: 38px;
+    font-family: "SF Pro Display";
+    height: 560px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container::after {
+    content: url("./../../../../client/public/img/img_project/bigBottle.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container::before {
+    content: "Вино, это .....";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 157px;
+    font-weight: 500;
+    line-height: 142px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #262626;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.big_text {
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.block_big_text {
+    display: flex;
+}
+
+.img {
+    width: 47px;
+    height: 42px;
+}
+
+.first_img {
+    margin-left: 18px;
+}
+
+.small_text {
+    color: #919191;
+    font-size: 16px;
+    font-weight: 510;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+
+
+.often_searched_block {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    display: flex;
+    column-gap: 13px;
+    margin-top: 14px;
+}
+
+.often_searched_block ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 4px;
+    color: #f89797;
+}

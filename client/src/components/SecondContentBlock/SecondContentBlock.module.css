@@ -1,0 +1,32 @@
+.container {
+    margin-top: 27px;
+}
+.block_cards {
+    margin-top: 32px;
+    display: flex;
+    height: 468px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 18px;
+}
+.link{
+    max-width: 490px;
+    width: 100%;
+    text-decoration: none;
+    max-height: 145px;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9;
+    border-radius: 18px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #515151;
+}

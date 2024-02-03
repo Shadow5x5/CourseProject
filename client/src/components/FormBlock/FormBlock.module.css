@@ -1,0 +1,83 @@
+.input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    border: 1.2px solid #777;
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    caret-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+::placeholder {
+    color: #777;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 16.2px */
+    letter-spacing: -0.36px;
+}
+.input:focus {
+    border: 1.2px solid #fff;
+}
+.input:hover {
+    border: 1.2px solid #fff;
+}
+.form {
+    height: 46px;
+    display: flex;
+    position: relative;
+    width: 538px;
+    column-gap: 6px;
+}
+
+.input_block {
+    flex-grow: 1;
+}
+
+.input_first_img {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.input_second_img {
+    /* Сброс всех свойств, включая отступы, цвета и шрифты */
+    all: initial;
+
+    /* Убрать стили, унаследованные от родительских элементов */
+    font: inherit;
+    color: inherit;
+
+    /* Убрать бордер и фон */
+    border: none;
+    background: none;
+
+    /* Сбросить внешний вид при наведении и активации */
+    cursor: pointer;
+    text-decoration: none;
+
+    /* Сбросить стили для различных состояний */
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60px;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.navlink {
+    background: none;
+}

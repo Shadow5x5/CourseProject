@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "startDev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.10.0",
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.3",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fuse": "^0.4.0",
+    "fuse.js": "^7.0.0",
+    "lunr": "^2.3.9",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "natural": "^6.8.0",
+    "tfidf": "^0.2.2"
+  }
+}
